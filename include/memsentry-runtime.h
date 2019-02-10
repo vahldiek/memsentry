@@ -6,10 +6,10 @@
 #ifndef SFI_MASK
 /* 47 bits - allow entire userspace (works for benchmarking without modifying
  * address space).  */
-//#define SFI_MASK 0x7fffffffffffULL
+#define SFI_MASK 0x7fffffffffffULL
 /* 46 bits - reserve 1 bit of the user address space, requires address space
  * layout modifications. */
-#define SFI_MASK 0x3fffffffffffULL
+//#define SFI_MASK 0x3fffffffffffULL
 #endif
 
 #ifndef MPX_UB

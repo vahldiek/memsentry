@@ -1,4 +1,4 @@
-PROTMETHOD ?= sfi
+PROTMETHOD ?= mpx
 RW         ?= rw
 
 include ../config.mk

@@ -1,10 +1,12 @@
 # Configures which LLVM to use
 
 # Ubuntu 16.04 system LLVM
-CLANG    := clang-3.8/bin/clang
-OPT      := clang-3.8/bin/opt-3.8
-LLINK    := clang-3.8/bin/llvm-link-3.8
-LLVMCONF := clang-3.8/bin/llvm-config-3.8
+PWD := /local/vahldiek/erim-public/src/MemSentry/
+CLANG    := $(PWD)/clang-3.8/bin/clang
+CLANG++  := $(PWD)/clang-3.8/bin/clang++
+OPT      := $(PWD)/clang-3.8/bin/opt
+LLINK    := $(PWD)/clang-3.8/bin/llvm-link
+LLVMCONF := $(PWD)/clang-3.8/bin/llvm-config
 
 # Local (asserts enabled)
 #LLVMPATH := /path/to/llvm/install/bin

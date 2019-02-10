@@ -5,3 +5,4 @@
 *.bc
 obj/
 .gdb_history
+clang-3.8/
